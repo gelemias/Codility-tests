@@ -14,34 +14,32 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"--> %d",solution([NSMutableArray arrayWithArray:@[@3,@1,@2,@4,@3]]));
+        NSLog(@"--> %d",solution([NSMutableArray arrayWithArray:@[@3,@5]]));
+
     }
     return 0;
 }
 
-
 int solution(NSMutableArray *A) {
+    int min = INT_MAX;
+    int right = 0;
+    int left = [[A objectAtIndex:0] intValue];
     
-    long leftSum = 0;
-    long solution = LONG_MAX;
-    
-    for (int i = 0 ; i < [A count] ; i++) {
-        if (i+1 < [A count]) {
-            leftSum += [A[i] longValue];
-            
-            long rightSum = 0;
-            
-            for (NSNumber *rest in [A subarrayWithRange:NSMakeRange([A indexOfObject:A[(i+1)]], [A count] - (i+1))]) {
-                rightSum += [rest longValue];
-            }
-            
-            long newSolution = labs(leftSum - rightSum);
-            NSLog(@"| %ld - %ld | = %ld",leftSum, rightSum, newSolution);
-            
-            if (solution > newSolution) {
-                solution = newSolution;
-            }
-        }
+    // Avoid ValueForKeyPath is not eficient enough.
+    //int rightSum = [[A subarrayWithRange:NSMakeRange(1, [A count] - 1)] valueForKeyPath:@"@sum.self"];
+    for (int i=1; i < [A count]; i++) {
+        right += [[A objectAtIndex:i] intValue];
     }
     
-    return (int)solution;
+    for (int i=1; i < [A count]; i++) {
+        int absValue = abs(left - right);
+        if (min > absValue) {
+            min = absValue;
+        }
+        
+        left += [[A objectAtIndex:i] intValue];
+        right -= [[A objectAtIndex:i] intValue];
+    }
+
+    return min;
 }
