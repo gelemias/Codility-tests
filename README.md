@@ -6,3 +6,4 @@ Example of resolved tests of https://codility.com/programmers/lessons/ in Object
 3. OddOccurrencesInArray [here](https://github.com/gelemias/Codility-tests/tree/master/OddOccurrencesInArray)
 3. TapeEquilibrium [here](https://github.com/gelemias/Codility-tests/tree/master/TapeEquilibrium)
 3. FrogJmp [here](https://github.com/gelemias/Codility-tests/tree/master/FrogJmp)
+3. PermMissingElem [here](https://github.com/gelemias/Codility-tests/tree/master/PermMissingElem)
