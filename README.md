@@ -1,9 +1,10 @@
-# Codility-tests
-Example of resolved tests of https://codility.com/programmers/lessons/ in Objective-C
+# Codility tests
+Example of resolved tests for https://codility.com/programmers/lessons/ in Objective-C
 
 1. BinaryGap [here](https://github.com/gelemias/Codility-tests/tree/master/BinaryGap)
 2. CyclicRotation [here](https://github.com/gelemias/Codility-tests/tree/master/CyclicRotation)
 3. OddOccurrencesInArray [here](https://github.com/gelemias/Codility-tests/tree/master/OddOccurrencesInArray)
-3. TapeEquilibrium [here](https://github.com/gelemias/Codility-tests/tree/master/TapeEquilibrium)
-3. FrogJmp [here](https://github.com/gelemias/Codility-tests/tree/master/FrogJmp)
-3. PermMissingElem [here](https://github.com/gelemias/Codility-tests/tree/master/PermMissingElem)
+4. TapeEquilibrium [here](https://github.com/gelemias/Codility-tests/tree/master/TapeEquilibrium)
+5. FrogJmp [here](https://github.com/gelemias/Codility-tests/tree/master/FrogJmp)
+6. PermMissingElem [here](https://github.com/gelemias/Codility-tests/tree/master/PermMissingElem)
+7. FrogRiverOne [here](https://github.com/gelemias/Codility-tests/tree/master/FrogRiverOne)
