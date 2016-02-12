@@ -11,3 +11,4 @@ Example of resolved tests for https://codility.com/programmers/lessons/ in Objec
 8. PermCheck [here](https://github.com/gelemias/Codility-tests/tree/master/PermCheck)
 9. MissingInteger [here](https://github.com/gelemias/Codility-tests/tree/master/MissingInteger)
 10. MaxCounters [here](https://github.com/gelemias/Codility-tests/tree/master/MaxCounters)
+11. CountDiv [here](https://github.com/gelemias/Codility-tests/tree/master/CountDiv)
