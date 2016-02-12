@@ -8,3 +8,4 @@ Example of resolved tests for https://codility.com/programmers/lessons/ in Objec
 5. FrogJmp [here](https://github.com/gelemias/Codility-tests/tree/master/FrogJmp)
 6. PermMissingElem [here](https://github.com/gelemias/Codility-tests/tree/master/PermMissingElem)
 7. FrogRiverOne [here](https://github.com/gelemias/Codility-tests/tree/master/FrogRiverOne)
+8. PermCheck [here](https://github.com/gelemias/Codility-tests/tree/master/PermCheck)
