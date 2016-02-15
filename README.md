@@ -13,6 +13,7 @@ Example of resolved tests for https://codility.com/programmers/lessons/ in Objec
 10. MaxCounters [here](https://github.com/gelemias/Codility-tests/tree/master/MaxCounters)
 11. CountDiv [here](https://github.com/gelemias/Codility-tests/tree/master/CountDiv)
 12. PassingCars [here](https://github.com/gelemias/Codility-tests/tree/master/PassingCars)
+13. Distinct [here](https://github.com/gelemias/Codility-tests/tree/master/Distinct)
 
 # challenges
 
