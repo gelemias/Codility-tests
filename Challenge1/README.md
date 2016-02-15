@@ -1,6 +1,6 @@
 ## These are two random codility challenges I came across
 
-#### #1
+#### 1. Anagram Palindromes
 
 A string is a palindrome if it has exactly the same sequence of characters when read left-to-right as it has when read right-to-left. For example, the following strings are palindromes:
 
@@ -34,7 +34,7 @@ Complexity:
 
 Copyright 2009-2016 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
 
-#### #2
+#### 2. K-complementary 
 
 A non-empty zero-indexed array A consisting of N integers is given. A pair of integers (P, Q) is called K-complementary in array A if 0 P, Q < N and A[P] + A[Q] = K.
 
