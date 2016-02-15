@@ -15,6 +15,7 @@ Example of resolved tests for https://codility.com/programmers/lessons/ in Objec
 12. PassingCars [here](https://github.com/gelemias/Codility-tests/tree/master/PassingCars)
 13. Distinct [here](https://github.com/gelemias/Codility-tests/tree/master/Distinct)
 14. Triangle [here](https://github.com/gelemias/Codility-tests/tree/master/Triangle)
+15. MaxProductOfThree [here](https://github.com/gelemias/Codility-tests/tree/master/MaxProductOfThree)
 
 # challenges
 
