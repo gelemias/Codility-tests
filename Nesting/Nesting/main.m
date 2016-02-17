@@ -28,29 +28,29 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-//87%
 int solution(NSString *S) {
     
     if (([S length] % 2) != 0) {
         return 0;
     }
     
-    NSMutableArray *pile = [NSMutableArray new];
+    int pile = 0;
     NSString *opener = @"(";
+    unichar opn = [opener characterAtIndex:0];
     
     for (int i = 0 ; i < [S length] ; i++) {
-        NSString *val = [S substringWithRange:NSMakeRange(i, 1)];
+        unichar c = [S characterAtIndex:i];
 
-        if ([val isEqualToString:opener]) {
-            [pile addObject:val];
+        if (c == opn) {
+            pile++;
         } else {
-            if ([pile count] == 0) {
+            if (pile == 0) {
                return 0;
             }
             
-            [pile removeLastObject];
+            pile--;
         }
     }
     
-    return ([pile count] == 0) ? 1 : 0;
+    return (pile == 0) ? 1 : 0;
 }
