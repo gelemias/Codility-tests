@@ -19,7 +19,8 @@ Example of resolved tests for https://codility.com/programmers/lessons/ in Objec
 16. Brackets [here](https://github.com/gelemias/Codility-tests/tree/master/Brackets)
 17. Fish [here](https://github.com/gelemias/Codility-tests/tree/master/Fish)
 18. Nesting [here](https://github.com/gelemias/Codility-tests/tree/master/Nesting)
-18. StoneWall [here](https://github.com/gelemias/Codility-tests/tree/master/StoneWall)
+19. StoneWall [here](https://github.com/gelemias/Codility-tests/tree/master/StoneWall)
+20. Dominator [here](https://github.com/gelemias/Codility-tests/tree/master/Dominator)
 
 # challenges
 
