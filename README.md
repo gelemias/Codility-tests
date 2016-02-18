@@ -21,7 +21,7 @@ Example of resolved tests for https://codility.com/programmers/lessons/ in Objec
 18. Nesting [here](https://github.com/gelemias/Codility-tests/tree/master/Nesting)
 19. StoneWall [here](https://github.com/gelemias/Codility-tests/tree/master/StoneWall)
 20. Dominator [here](https://github.com/gelemias/Codility-tests/tree/master/Dominator)
-
+21. EquiLeader [here](https://github.com/gelemias/Codility-tests/tree/master/EquiLeader)
 # challenges
 
 1. Anagram Palindromes & K-complementary [here](https://github.com/gelemias/Codility-tests/tree/master/Challenge1)
